@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alzheimer Prediction</title>
+</head>
+<body>
+    <h2>Alzheimer Prediction</h2>
+    <form action="/predict" method="post">
+        <!-- Add form fields for the necessary inputs -->
+        <label for="age">Age:</label>
+        <input type="number" name="age" required><br><br>
+
+        <!-- Repeat for other input features (like MRI data, test scores, etc.) -->
+        
+        <input type="submit" value="Predict">
+    </form>
+    
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>

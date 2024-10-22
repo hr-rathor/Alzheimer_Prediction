@@ -1,7 +1,7 @@
 # Alzheimer Prediction
 This project aims to predict Alzheimer’s Disease progression using machine learning. The goal is to classify individuals into different disease stages based on medical and cognitive data.
 
-# 0Overview
+# Overview
 Alzheimer’s Disease is a neurodegenerative disorder. Early detection can improve management. This project applies various ML algorithms to predict Alzheimer’s stages based on patient data.
 
 # Dataset
@@ -25,11 +25,11 @@ Run the project using Jupyter or the command line:
 bash
 Copy code
 jupyter notebook
-Command line:
+- **Command line**:
 bash
 Copy code
 python train_model.py
-Project Structure
+- **Project Structure**
 plaintext
 Copy code
 ├── data/            # Dataset
@@ -38,12 +38,12 @@ Copy code
 ├── results/         # Model outputs
 ├── train_model.py   # Training script
 └── requirements.txt # Dependencies
-Modeling Process
-Preprocessing: Handle missing data, scaling, encoding.
-Modeling: Train models (Random Forest, SVM, XGBoost, etc.)
-Evaluation: Metrics like accuracy, F1-score.
-Results
-Best Model: Random Forest (Accuracy: XX%)
-Key Features: MRI data, cognitive tests, age.
-License
+# Modeling Process
+- **Preprocessing**: Handle missing data, scaling, encoding.
+- **Modeling**: Train models (Random Forest, SVM, XGBoost, etc.)
+- **Evaluation**: Metrics like accuracy, F1-score.
+# Results
+- **Best Model**: Random Forest (Accuracy: XX%)
+- **Key Features**: MRI data, cognitive tests, age.
+# License
 This project is licensed under the MIT License.

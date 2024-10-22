@@ -13,7 +13,7 @@ Alzheimer’s Disease is a neurodegenerative disorder. Early detection can impro
 - Clone the repository:
 bash
 Copy code
-git clone https://github.com/hemanthrathor/alzheimer-prediction.git
+git clone https://github.com/hr-rathor/Alzheimer_Prediction/blob/main/Alzheimer_Prediction.ipynb
 - Install dependencies:
 bash
 Copy code
